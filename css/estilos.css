@@ -1,7 +1,6 @@
 .MenuCabecera{
-    background-color: #BE1622 ;
+    background-color: #a4cdd7 ;
     width: 100%;
-    height: 120px;
 }
 *{
     margin: 0;
@@ -11,7 +10,15 @@
     background-color: #1d70b8;
     width: 100%;
     height: 120px;
+    background-image:url("../imagenes/colaborativo.png");
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
 }
+
+
 
 .CajaColumnas{
     display: flex;
@@ -39,4 +46,28 @@
     width: 100%;
     height: 120px;
 }
-
+.MenuSuperior li {
+    display: inline;
+    padding: 2px;
+    border-right: solid 2px rgb(24, 38, 231);
+}
+.MenuSuperior {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    padding: 15px;
+}
+.MenuSuperior a:hover{
+    color: #e2430c;
+    text-decoration: underline;
+}
+.li a{
+    text-decoration: none;
+}
+.MenuSuperior li :last-child{
+    border-right: none;
+    
+}
+.MenuSuperior{
+    padding: 20px;
+}
