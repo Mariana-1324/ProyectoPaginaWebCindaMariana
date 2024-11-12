@@ -71,3 +71,22 @@
 .MenuSuperior{
     padding: 20px;
 }
+.CajaColumnas img{
+    width: 100%;
+    height: 300px;
+}
+formulario{
+    width: 80%;
+    margin: auto;
+}
+form{
+    padding: 15px;
+}
+imput{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+}
