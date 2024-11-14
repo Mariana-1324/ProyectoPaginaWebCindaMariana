@@ -49,7 +49,9 @@
 .MenuSuperior li {
     display: inline;
     padding: 2px;
-    border-right: solid 2px rgb(24, 38, 231);
+}
+.bordederecho li{
+    border-right: solid 2px black;
 }
 .MenuSuperior {
     text-transform: uppercase;
@@ -82,11 +84,36 @@ formulario{
 form{
     padding: 15px;
 }
-imput{
+input[type=submit]{
+    background-color: rgb(200,200,30);
     width: 100%;
     padding: 5px;
     border-radius: 5px;
 }
 textarea{
     width: 100%;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: rgb(20,200,30,0.3);
+    padding: 10px;
+    color: rgb(255,255,255)
+}
+input[type=submit]:hover{
+    background-color: rgb(20,200,30,0.8);
+    cursor: pointer;
+}
+.footer{
+    background-color: aquamarine;
+    width: 100%;
+    height: 150px;
+}
+li a img{
+    width: 32px;
+}
+li a img:hover{
+    opacity: 30%;
+}
+.derechos{
+    padding: 15px;
 }
